@@ -1,0 +1,100 @@
+@import url("../fonts/fonts.css");
+body{
+    background-color: #f0f;
+    margin: 0;
+    font-family: Formula1Bold;
+    color: #fff
+}
+
+h1{
+    margin: 0;
+    font-size: 4vw;
+}
+
+.container {
+    aspect-ratio: 16/9;
+}
+
+.bg{
+    height: 100%;
+}
+
+.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/bg/2025/China.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.info{
+    height: 33.333%;
+    display: grid;
+    text-align: center;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    width: auto;
+}
+
+.text > h1{
+    font-size: 3.5vw;
+}
+
+.text{
+}
+
+
+.logo{
+    padding-top: 30%;
+    height: 3vw;
+}
+
+.logo > * , .footer-logos > *{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3.5vw;
+}
+
+.logo > .circuit{
+    padding-right: 1.4vw;
+}
+
+.logo > .year{
+    padding-left: 0.4vw;
+}
+
+.logo > img, .footer-logos > img{
+    height: 100%;
+    width: auto;
+}
+
+
+.footer-logos{
+    height: 6vw;
+}
+
+
+.clock-box{
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    
+}
+.timeblock{
+    border-radius: 10px;
+    padding-left: .3em;
+    padding-right: .3em;
+    margin-right: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeblock small{
+    font-size: 3vw;
+}

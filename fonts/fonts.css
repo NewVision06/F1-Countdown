@@ -1,0 +1,13 @@
+@font-face
+{
+font-family: Formula1;
+src:url('./f1-b.TTF'),
+    url('./f1-b.TTF'); /* IE9+,可以是具体的实际链接 */
+}
+
+@font-face
+{
+font-family: Formula1Bold;
+src:url('./FORMULA1-BOLD.TTF'),
+    url('./FORMULA1-BOLD.TTF'); /* IE9+,可以是具体的实际链接 */
+}
