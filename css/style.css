@@ -1,14 +1,12 @@
 @import url("../fonts/fonts.css");
 body{
-    background-color: #f0f;
     margin: 0;
     font-family: Formula1Bold;
     color: #fff
 }
 
-h1{
+h1,h2{
     margin: 0;
-    font-size: 4vw;
 }
 
 .container {
@@ -19,7 +17,7 @@ h1{
     height: 100%;
 }
 
-.bg::before {
+body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -43,6 +41,11 @@ h1{
 
 .text > h1{
     font-size: 3.5vw;
+}
+
+
+.text > h2{
+    font-size: 2vw;
 }
 
 .text{

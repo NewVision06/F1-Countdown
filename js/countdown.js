@@ -18,10 +18,8 @@ function getNumNumber(number) {
   return number.toString().length;
 }
 
-var ddl = new Date("2025/3/21 11:30:00");
-
 function timeChange() {
-  a = getTimeRemaining(ddl);
+  a = getTimeRemaining(date);
 
   function padZero(num, length) {
     return (Array(length).join("0") + num).slice(-length);
@@ -38,4 +36,3 @@ function timeChange() {
   document.getElementById("viewsecond").innerHTML = padZero(a.seconds, 2);
 }
 
-setInterval(timeChange, 1000);
