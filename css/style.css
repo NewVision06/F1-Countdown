@@ -83,12 +83,18 @@ body::before {
 
 
 .clock-box{
-    font-size: 8vw;
+    
     display: flex;
     justify-content: center;
     margin:0;
     
 }
+
+.timenumber{
+    container-type: inline-size;
+    font-size: 8vw;
+}
+
 .timeblock{
     border-radius: 10px;
     padding-left: .3em;
@@ -101,4 +107,4 @@ body::before {
 
 .timeblock small{
     font-size: 3vw;
-}
+    margin-top: 0%;}
